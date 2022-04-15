@@ -1,9 +1,9 @@
-const val kotlinVersion = "1.4.31"
-const val hiltVersion = "2.33-beta"
+const val kotlinVersion = "1.6.0"
+const val hiltVersion = "2.41"
 
 object BuildPlugins {
     object Version {
-        const val androidBuildToolsVersion = "7.0.0-alpha12"
+        const val androidBuildToolsVersion = "7.1.0"
         const val versionsVersion = "0.33.0"
         const val detektVersion = "1.14.1"
         const val ktlintVersion = "9.4.0"
@@ -27,8 +27,8 @@ object BuildPlugins {
 
 object AndroidSdk {
     const val min = 30
-    const val compile = 30
-    const val target = 30
+    const val compile = 31
+    const val target = 31
 }
 
 
@@ -38,12 +38,12 @@ object Libraries {
         const val ktxActivity = "1.3.0-alpha05"
         const val ktxFragment = "1.3.2"
         const val material = "1.4.0-alpha02"
-        const val constraintLayout = "2.1.0-beta01"
-        const val lifecycle = "2.4.0-alpha01"
-        const val hiltCompiler = "1.0.0-beta01"
+        const val constraintLayout = "2.1.3"
+        const val lifecycle = "2.4.1"
+        const val hiltCompiler = "1.0.0"
         const val hilt = "1.0.0-alpha03"
-        const val slidingPaneLayout = "1.2.0-alpha01"
-        const val navigation = "2.3.4"
+        const val slidingPaneLayout = "1.2.0"
+        const val navigation = "2.4.2"
 
         const val junit = "4.13.1"
         const val androidXJunit = "1.1.3-alpha04"
